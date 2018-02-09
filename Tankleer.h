@@ -4,7 +4,7 @@ class Tankleer :public FahrAusnahme
 {
 public:
 	Tankleer(Fahrzeug* pFahrzeug, Weg* pWeg);
-	virtual ~Tankleer();
+	virtual ~Tankleer;
 	virtual void vBearbeiten();//Bearbeiungsfunktion der Fahrausnahme
 };
 
