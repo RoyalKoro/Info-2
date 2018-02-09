@@ -45,7 +45,7 @@ ostream & AktivesVO::ostreamAusgabe(ostream & out) const
 	out << setprecision(2) << fixed//Auf 2 Nachkommastellen runden
 		<< resetiosflags(ios::left) << setiosflags(ios::right) << setw(2) << p_iID << " "
 		<< resetiosflags(ios::right) << setiosflags(ios::left) << setw(10) << p_sName << ":";
-	return out;
+	//return out;
 }
 
 istream& AktivesVO::istreamEingabe(istream& in)
